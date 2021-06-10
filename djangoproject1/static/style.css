@@ -1,0 +1,125 @@
+*  {
+margin : 0;
+padding : 0;
+border: 0;
+}
+body {
+font : 73% "Trebuchet MS", Tahoma, Helvetica, Arial, sans-serif;
+background : transparent url(images/bg.jpg) top no-repeat;
+color : #443F3C;
+}
+a:link, a:visited {
+text-decoration : none;
+color : #4099BB;
+background:transparent;
+}
+a:hover {
+text-decoration : none;
+color : #75714E;
+}
+img {
+border : none;
+}
+#container {	
+width : 880px;
+margin : 5px auto;
+line-height: 2em;
+background : transparent;
+color : #443F3C;
+}
+#top {
+height:200px;
+border-bottom : 0px solid #808080;
+}
+#top h1 {
+text-align: right;
+padding : 50px 70px 5px 0;
+font-family: georgia, arial, sans-serif;
+font-size: 2em;
+letter-spacing: 5px;
+background : transparent;
+color: #000;
+}
+#leftnav {
+float : left;
+width : 200px;
+padding : 0 1em;
+}
+#content {
+margin : 0 0 20px 240px;
+border-left : 0px solid #808080;
+padding : 0 1em;
+}
+#content p {
+padding : 0 20px;
+}
+#footer{
+clear : both;
+padding : 1em 0 0 0;
+background : transparent;
+color : #000;
+}
+#leftnav p {
+margin : 0 0 1em 0;
+}
+h2 {
+margin : 1em 0;
+font-family: georgia, sans-serif;
+font-size: 1.3em;
+letter-spacing: 3px;
+color: #5B4B3B;
+}
+#footer p {
+padding-left : 5px;
+font-size: 0.8em;
+}
+blockquote {
+padding : 15px;
+border-left: 3px solid #BF9F62;
+color: #BF9F62;
+}
+.logo {
+padding : 0.5em 8em 0 0;
+text-align: right;
+font-size: 1.1em;
+font-style: italic;
+color:#000;
+}
+.quote {
+border-top : 1px dotted #C5C5C5;
+border-bottom : 1px dotted #C5C5C5;
+padding : 10px;
+}
+.clear {
+clear: both;
+overflow: hidden;
+width: 0;
+height: 0;
+}
+.sidenav {
+margin : 10px 10px;
+padding : 0;
+list-style-type : none;
+background : inherit;
+color : #fff;
+}
+.sidenav a {
+letter-spacing : 1px;
+border-bottom : 1px solid #aaa;
+margin-bottom : 5px;
+padding-left : 20px;
+display : block;
+text-decoration : none;
+background : url(images/arrow.gif) no-repeat left center;
+color : #7D7852;
+}
+.sidenav a#current, .sidenav a:hover {
+text-decoration : none;
+background : url(images/arrow.gif) no-repeat left center;
+color : #333;
+}
+ul {
+list-style : none;
+margin : 0;
+padding : 0;
+}

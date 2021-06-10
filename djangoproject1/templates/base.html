@@ -1,0 +1,72 @@
+ {% load static %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>*BUTTERFLIES*</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<div id="container">
+	
+<div id="top">
+
+<h1> Demo Theme </h1>
+
+
+	
+</div>
+
+<p class="clear"></p>
+
+<div id="leftnav">
+
+<h2>Categories</h2>
+
+<div class="sidenav">
+		<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="about">About&amp; Colour</a></li>		
+		<li><a href="contect">Content</a></li>
+		<li><a href="form">Form</a></li>
+		</ul>
+</div>
+				
+<h2>Left content</h2>
+
+<p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi quis ligula. Donec tortor purus, ornare vel, tincidunt at, lacinia ac, leo. Nunc fermentum congue odio.</p>
+
+<p class="quote">"Happiness is a journey, not a destination".</p>
+
+</div>
+
+
+{% block content %}
+
+
+{% endblock %}
+	
+
+<div id="content">
+
+<h2>Main content</h2>
+
+<p>This template has been tested in Mozilla Firefox and IE7 and validates as <em>XHTML 1.0 Transitional</em> using <em>valid CSS</em>. It will work in browser widths of 1024x768 &amp; 1280x1024.</p>
+
+
+</div>
+
+<div id="footer"><p><a href="#">homepage</a> | <a href="mailto:denise@mitchinson.net">contact</a> | &copy; 2008 Anyone | Design by <a href="http://www.mitchinson.net"> www.mitchinson.net</a> |  Licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0  License</a></p></div>
+
+</div>
+
+</body>
+</html>
