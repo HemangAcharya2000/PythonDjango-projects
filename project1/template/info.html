@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+
+
+{% block body %}
+{% load static%}
+
+ <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+<style>
+body {
+  background-color: black;
+}
+</style>
+<div class="header">
+  <h2 style = "background-color: grey";> Gaming Hub</h2>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" style="
+    position: relative;
+    right: -150px;
+">
+     
+      <h2>Minecraft</h2>
+      <img src="{% static 'E:\project1\static\4.jpg' %}"  width="300" height="300"  alt="...">
+      <p>minecraft..</p>
+      <p>In Minecraft, players explore a blocky, procedurally-generated 3D world with virtually infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures or earthworks. Depending on game mode, players can fight computer-controlled "mobs", as well as cooperate with or compete against other players in the same world. Game modes include a survival mode, in which players must acquire resources to build the world and maintain health, and a creative mode, where players have unlimited resources. Players can modify the game to create new gameplay mechanics, items, and assets.</p>
+    </div>
+     <div class="card" style="
+    position: relative;
+    right: -150px;
+">
+     
+      <h2>PUBG</h2>
+      
+      <img src="{% static 'E:\project1\static\1.jpg' %}"  width="300" height="300"  alt="...">
+      <p>pubg..</p>
+      <p>PUBG was first released for Microsoft Windows via Steam's early access beta program in March 2017, with a full release in December 2017. The game was also released by Microsoft Studios for the Xbox One via its Xbox Game Preview program that same month, and officially released in September 2018. PUBG Mobile, a free-to-play mobile game version for Android and iOS, was released in 2018, in addition to a port for the PlayStation 4. A version for the Stadia streaming platform was released in April 2020. PUBG is one of the best-selling, highest-grossing and most-played video games of all time. The game has sold over 70 million copies on personal computers and game consoles as of 2020, in addition to PUBG Mobile accumulating 1 billion downloads as of March 2021 and grossing over $4.3 billion on mobile devices as of December 2020.</p>
+    </div>
+     <div class="card" style="
+    position: relative;
+    right: -150px;
+">
+     
+      <h2>GTA 5</h2>
+    
+     <img src="{% static 'E:\project1\static\2.jpg' %}"  width="300" height="300"  alt="...">
+      <p>gta 5..</p>
+      <p>Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the first main entry in the Grand Theft Auto series since 2008's Grand Theft Auto IV. Set within the fictional state of San Andreas, based on Southern California, the single-player story follows three protagonists—retired bank robber Michael De Santa, street gangster Franklin Clinton, and drug dealer and arms smuggler Trevor Philips—and their attempts to commit heists while under pressure from a corrupt government agency and powerful criminals. The open world design lets players freely roam San Andreas' open countryside and the fictional city of Los Santos, based on Los Angeles.</p>
+    </div>
+     <div class="card" style="
+    position: relative;
+    right: -150px;
+">
+     
+      <h2>Valorant</h2>
+      
+      <img src="{% static 'E:\project1\static\3.jpg' %}"  width="300" height="300"  alt="...">
+      <p>valorant..</p>
+      <p>Valorant is a team-based first-person hero shooter set in the near future.[2][3][4][5] Players play as one of a set of agents, characters designed based on several countries and cultures around the world.[5] In the main game mode, players are assigned to either the attacking or defending team with each team having five players on it. Agents have unique abilities, each requiring charges, as well as a unique ultimate ability that requires charging through kills, deaths, or spike actions. Every player starts each round with a "classic" pistol and one or more "signature ability" charges.[3] Other weapons and ability charges can be purchased using an in-game economic system that awards money based on the outcome of the previous round, any kills the player is responsible for, and any actions taken with the spike. The game has an assortment of weapons including secondary guns like sidearms and primary guns like submachine guns, shotguns, machine guns, assault rifles and sniper rifles.[6][7] There are automatic and semi-automatic weapons that each have a unique shooting pattern that has to be controlled by the player to be able to shoot accurately.[7] Different agents allow players to find more ways to plant the Spike and style on enemies with scrappers, strategists, and hunters of every description. It currently offers 15 agents to choose from.[8][9] They are Brimstone, Phoenix, Sage, Sova, Viper, Cypher, Reyna, Killjoy, Breach, Omen, Jett, Raze, Skye, Yoru, and Astra.</p>
+    </div>
+    
+  </div>
+  
+    
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Thanks For Visit...</h2>
+</div>
+
+</body>
+</html>
+  
+
+{% endblock body %}
